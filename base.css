@@ -1,0 +1,100 @@
+:root {
+  --bs-tertiary-color-rgb: 255, 255, 255;
+}
+
+body {
+  position: relative;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: 0;
+  font-size: 2rem;
+}
+
+
+  .subscript {
+    position: relative;
+    font-size: 0.8rem;
+    bottom: -0.5em;
+  }
+
+.whats-new
+{
+  background-color: rgb(177, 25, 25);
+  color: white;
+  border-bottom: white 2px solid;
+  border-top: white 2px solid
+}
+
+.brand-title
+{
+  position: absolute;
+  
+  margin: 0;
+  padding: 10px;
+}
+
+.feature-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.featurette-body {
+  line-height: 2;
+  font-size: 20px;
+  
+  width: 500px;
+}
+.centered-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.featurette
+{
+  background-image: url("https://mapexdrums.com/files/file_pool/1/0n258148855857418078/product_index_banner.jpg");
+
+}
+
+.marketing
+{
+  background-color: #00000044;
+}
+
+
+/* rtl:end:ignore */
+
+.hero {
+
+  background-image: url('https://vicfirth.com/cdn/shop/files/Essential-Bags-Homepage-Banner.jpg?v=1711468910&width=3840');
+  background-size: cover;
+  background-position-x: 0px;
+  height: 500px;
+  width: 100%;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  display: flex;
+
+}
+
+
+.hero-card {
+  width: 500px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 10px #000000;
+}
+
+
+body {
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
